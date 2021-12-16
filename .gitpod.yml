@@ -1,7 +1,7 @@
 tasks:
   - init: yarn
     command: |
-      export HMR_HOST=`gp url 3000` 
+      export HMR_HOST=`gp url 3000`
       yarn dev
 
 ports:
